@@ -9,6 +9,38 @@
     <title>Slideshow</title>
 </head>
 <body>
-    <script src="./js/index.js"></script>
+<body>
+    <h1>JavaScript Slideshow</h1>
+
+    <div class="slideshow">
+
+        <div class="slide">
+            <img src="images/florian-wehde.jpg">
+        </div>
+
+        <div class="slide">
+            <img src="images/johan-mouchet.jpg">
+        </div>
+
+        <div class="slide">
+            <img src="images/ken-cheung.jpg">
+        </div>
+
+        <div class="slide">
+            <img src="images/drew-dizzy-graham.jpg">
+        </div>
+
+        <div class="nav">
+            <a href="#" onclick="previous();">Previous</a>
+            <a href="#" onclick="setSlide(0)">1</a>
+            <a href="#" onclick="setSlide(1)">2</a>
+            <a href="#" onclick="setSlide(2)">3</a>
+            <a href="#" onclick="setSlide(3)">4</a>
+            <a href="#" onclick="next();">Next</a>
+        </div>
+        <div class="counter">1/4</div>
+    </div>
+
+    <script src="./js/slideshow.js"></script>
 </body>
 </html>

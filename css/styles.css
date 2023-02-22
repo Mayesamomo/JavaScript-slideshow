@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    margin-bottom: 25px;
+    text-align: center;
+}
+.slideshow img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+
+}
+.slideshow{
+    max-width: 950px;
+    position: relative;
+    margin: auto;
+}
+
+
+.slide:not(:first-child){
+    display: none;
+}
+div.nav{
+    margin: 10px 0;
+}
+
+.nav a{
+    text-decoration: none;
+    background-color: coral;
+    color: #000000;
+    border: 2px solid ;
+    border-radius: 15px;
+    padding: 7px;
+}
